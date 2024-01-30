@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: rgb(234, 234, 234);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+h1{
+    margin: auto;
+}
+
+div {
+    margin: auto;
+}
+
+.button {
+    padding: 1rem 1.9rem;
+    background-color: rgb(12, 62, 169);
+    outline: none;
+    border: solid 1px black;
+    border-radius: 1.5rem;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.button:hover {
+    transition: 200ms;
+    background-color: rgb(32, 82, 192);
+}
+
+
+.button:active {
+    transition: 300ms;
+    background-color: rgb(1, 51, 160);
+    box-shadow: 0px 0px 4px 5px rgb(32, 82, 192);
+}
